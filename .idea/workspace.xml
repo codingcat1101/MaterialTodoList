@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="11b23abb-39aa-469a-81db-de7dc02cb57c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +36,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
         <option value="resourceFile" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -142,17 +147,65 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceDirectoryDialog" timestamp="1607591891026">
+    <state x="491" y="89" width="374" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1607594594212">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceDirectoryDialog/0.27.1366.708@0.27.1366.708" timestamp="1607591891026" />
-    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1607591897975">
+    <state x="491" y="89" width="374" height="581" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1607594594212" />
+    <state x="416" y="130" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607602909284">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceFileDialog/0.27.1366.708@0.27.1366.708" timestamp="1607591897975" />
-    <state x="466" y="161" width="423" height="438" key="chooseDestDirectoryDialog" timestamp="1607592048303">
+    <state x="416" y="130" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.708@0.27.1366.708" timestamp="1607602909284" />
+    <state x="441" y="127" key="#xdebugger.evaluate" timestamp="1607606284163">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="466" y="161" width="423" height="438" key="chooseDestDirectoryDialog/0.27.1366.708@0.27.1366.708" timestamp="1607592048303" />
+    <state x="441" y="127" key="#xdebugger.evaluate/0.27.1366.708@0.27.1366.708" timestamp="1607606284163" />
+    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceDirectoryDialog" timestamp="1607602087374">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceDirectoryDialog/0.27.1366.708@0.27.1366.708" timestamp="1607602087374" />
+    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1607605680440">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="266" y="138" width="824" height="484" key="AndroidCreateResourceFileDialog/0.27.1366.708@0.27.1366.708" timestamp="1607605680440" />
+    <state width="1322" height="166" key="GridCell.Tab.0.bottom" timestamp="1607603350547">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1322" height="166" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1607603350547" />
+    <state width="1322" height="166" key="GridCell.Tab.0.center" timestamp="1607603350547">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1322" height="166" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1607603350547" />
+    <state width="1322" height="166" key="GridCell.Tab.0.left" timestamp="1607603350546">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1322" height="166" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1607603350546" />
+    <state width="1322" height="166" key="GridCell.Tab.0.right" timestamp="1607603350547">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1322" height="166" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1607603350547" />
+    <state x="266" y="126" width="824" height="508" key="IDE.errors.dialog" timestamp="1607593808658">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="266" y="126" width="824" height="508" key="IDE.errors.dialog/0.27.1366.708@0.27.1366.708" timestamp="1607593808658" />
+    <state x="466" y="161" width="423" height="438" key="chooseDestDirectoryDialog" timestamp="1607602913937">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="466" y="161" width="423" height="438" key="chooseDestDirectoryDialog/0.27.1366.708@0.27.1366.708" timestamp="1607602913937" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/edmingle/materialtodo/Fragment/TaskFragment.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/edmingle/materialtodo/Fragment/TaskFragment.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

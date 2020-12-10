@@ -1,8 +1,9 @@
-package com.edmingle.materialtodo;
+package com.edmingle.materialtodo.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -10,18 +11,27 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+
+import com.edmingle.materialtodo.Fragment.ProfileFragment;
+import com.edmingle.materialtodo.R;
+import com.edmingle.materialtodo.Fragment.ShopFragment;
+import com.edmingle.materialtodo.Fragment.TaskFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActionBar toolbar;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = getSupportActionBar();
+        toolbar = findViewById(R.id.toolbar_top);
+        setSupportActionBar(toolbar);
+
+
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
